@@ -5,9 +5,12 @@ package com.lzjuhuenng.enjoybooks.pojo;
  */
 public class BookType {
 
+    //图书种类id
     private int id;
-
+    //图书种类
     private String bookType;
+    //图书种类状态
+    private  int state;
 
     public int getId() {
         return id;
@@ -23,5 +26,13 @@ public class BookType {
 
     public void setBookType(String bookType) {
         this.bookType = bookType;
+    }
+
+    public int getState() {
+        return state;
+    }
+
+    public void setState(int state) {
+        this.state = state;
     }
 }

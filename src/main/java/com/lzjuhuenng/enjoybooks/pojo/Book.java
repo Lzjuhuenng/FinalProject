@@ -1,31 +1,37 @@
 package com.lzjuhuenng.enjoybooks.pojo;
 
+import java.util.List;
+
 /**
  * Created by Administrator on 2017/4/5.
  */
 public class Book {
 
+    //图书ID
     private int id;
-
+    //图书名称
     private String bookName;
-
+    //图书作者
     private String bookAuthor;
-
+    //图书种类
     private BookType bookType;
-
+    //图书封面地址
     private String coverURL;
-
+    //图书出版日期
     private String bookDate;
-
+    //图书简介
     private String bookBrief;
-
+    //图书的路径
     private String bookPath;
-
-    private BookMark bookMark;
-
+    //图书的书签的集合
+    private List<BookMark> bookMarkList;
+    //图书的上次阅读状态
     private String lastRead;
-
+    //用户Id
     private int accountId;
+
+    //图书的状态
+    private int state;
 
     public int getId() {
         return id;
@@ -91,12 +97,12 @@ public class Book {
         this.bookPath = bookPath;
     }
 
-    public BookMark getBookMark() {
-        return bookMark;
+    public List<BookMark> getBookMarkList() {
+        return bookMarkList;
     }
 
-    public void setBookMark(BookMark bookMark) {
-        this.bookMark = bookMark;
+    public void setBookMarkList(List<BookMark> bookMarkList) {
+        this.bookMarkList = bookMarkList;
     }
 
     public String getLastRead() {
@@ -113,5 +119,14 @@ public class Book {
 
     public void setAccountId(int accountId) {
         this.accountId = accountId;
+    }
+
+
+    public int getState() {
+        return state;
+    }
+
+    public void setState(int state) {
+        this.state = state;
     }
 }
