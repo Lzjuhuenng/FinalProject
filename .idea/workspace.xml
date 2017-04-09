@@ -2,321 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a3f70aa9-463b-49dd-abf4-8bfe888e985b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/lzjuhuenng/enjoybooks/service/BookService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/lzjuhuenng/enjoybooks/service/impl/BookServiceImpl.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/lzjuhuenng/enjoybooks/controller/ForwardAndRedirectAction.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/lzjuhuenng/enjoybooks/controller/ModelAttrAction.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/lzjuhuenng/enjoybooks/controller/RequestMethodAction.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/lzjuhuenng/enjoybooks/controller/SessionAttrAction.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/lzjuhuenng/enjoybooks/controller/UserInfoAction.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/lzjuhuenng/enjoybooks/dao/BookMarkDao.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/lzjuhuenng/enjoybooks/dao/BookTypeDao.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/lzjuhuenng/enjoybooks/pojo/Department.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/lzjuhuenng/enjoybooks/pojo/UserInfo.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/lzjuhuenng/enjoybooks/service/UserInfoService.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/lzjuhuenng/enjoybooks/service/impl/UserInfoServiceImpl.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/com/lzjuhuenng/enjoybooks/mapping/BookMarkMapper.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/com/lzjuhuenng/enjoybooks/mapping/BookTypeMapper.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/test/Test.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/0.chunk.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/0.chunk.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/1.chunk.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/1.chunk.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/2.chunk.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/2.chunk.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/3.chunk.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/3.chunk.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/assets/.npmignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/assets/bootstrap-v3.3.7/bootstrap-theme.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/assets/bootstrap-v3.3.7/bootstrap-theme.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/assets/bootstrap-v3.3.7/bootstrap.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/assets/bootstrap-v3.3.7/bootstrap.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/assets/css/animate.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/assets/css/epub/annotations.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/assets/css/epub/main.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/assets/css/epub/normalize.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/assets/css/epub/popup.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/assets/css/prism.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/assets/font-awesome.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/assets/font-awesome.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/assets/fonts/FontAwesome.otf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/assets/fonts/bootstrap/glyphicons-halflings-regular.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/assets/fonts/bootstrap/glyphicons-halflings-regular.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/assets/fonts/bootstrap/glyphicons-halflings-regular.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/assets/fonts/bootstrap/glyphicons-halflings-regular.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/assets/fonts/bootstrap/glyphicons-halflings-regular.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/assets/fonts/epub/fontello.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/assets/fonts/epub/fontello.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/assets/fonts/epub/fontello.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/assets/fonts/epub/fontello.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/assets/fonts/fontawesome-webfont.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/assets/fonts/fontawesome-webfont.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/assets/fonts/fontawesome-webfont.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/assets/fonts/fontawesome-webfont.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/assets/fonts/fontawesome-webfont.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/assets/fonts/glyphicons-halflings-regular.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/assets/fonts/glyphicons-halflings-regular.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/assets/fonts/glyphicons-halflings-regular.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/assets/fonts/glyphicons-halflings-regular.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/assets/fonts/glyphicons-halflings-regular.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/assets/fonts/icomoon/icomoon.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/assets/fonts/icomoon/icomoon.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/assets/fonts/icomoon/icomoon.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/assets/fonts/icomoon/icomoon.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/assets/fonts/icomoon/icomoon/Read Me.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/assets/fonts/icomoon/icomoon/demo-files/demo.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/assets/fonts/icomoon/icomoon/demo.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/assets/fonts/icomoon/icomoon/fonts/icomoon.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/assets/fonts/icomoon/icomoon/fonts/icomoon.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/assets/fonts/icomoon/icomoon/fonts/icomoon.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/assets/fonts/icomoon/icomoon/fonts/icomoon.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/assets/fonts/icomoon/icomoon/selection.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/assets/fonts/icomoon/icomoon/style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/assets/fonts/simple-line-icons/Simple-Line-Icons.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/assets/fonts/simple-line-icons/Simple-Line-Icons.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/assets/fonts/simple-line-icons/Simple-Line-Icons.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/assets/fonts/simple-line-icons/Simple-Line-Icons.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/assets/fonts/simple-line-icons/Simple-Line-Icons.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/assets/i18n/en.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/assets/i18n/zh.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/assets/imgs/1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/assets/imgs/10.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/assets/imgs/113.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/assets/imgs/114.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/assets/imgs/115.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/assets/imgs/116.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/assets/imgs/2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/assets/imgs/3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/assets/imgs/4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/assets/imgs/5.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/assets/imgs/6.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/assets/imgs/7.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/assets/imgs/8.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/assets/imgs/9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/assets/imgs/angular-wechat-channel.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/assets/imgs/angular-weibo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/assets/imgs/angular.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/assets/imgs/angular2-small.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/assets/imgs/angular2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/assets/imgs/annotator-glyph-sprite.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/assets/imgs/annotator-icon-sprite.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/assets/imgs/apple-touch-icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/assets/imgs/cancelfullscreen.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/assets/imgs/close.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/assets/imgs/fullscreen.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/assets/imgs/loader.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/assets/imgs/menu-icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/assets/imgs/save.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/assets/imgs/saved.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/assets/imgs/settings-s.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/assets/imgs/settings.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/assets/imgs/star.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/assets/imgs/thumb.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/assets/js/epub.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/assets/js/hooks.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/assets/js/jquery.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/assets/js/reader.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/assets/js/screenfull.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/assets/js/zip.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/assets/skins/lightgray/content.inline.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/assets/skins/lightgray/content.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/assets/skins/lightgray/fonts/tinymce-small.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/assets/skins/lightgray/fonts/tinymce-small.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/assets/skins/lightgray/fonts/tinymce-small.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/assets/skins/lightgray/fonts/tinymce-small.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/assets/skins/lightgray/fonts/tinymce.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/assets/skins/lightgray/fonts/tinymce.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/assets/skins/lightgray/fonts/tinymce.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/assets/skins/lightgray/fonts/tinymce.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/assets/skins/lightgray/img/anchor.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/assets/skins/lightgray/img/loader.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/assets/skins/lightgray/img/object.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/assets/skins/lightgray/img/trans.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/assets/skins/lightgray/skin.ie7.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/assets/skins/lightgray/skin.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/dist.zip" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/favicon.ico" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/inline.bundle.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/inline.bundle.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/main.bundle.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/main.bundle.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/ng2-toastr.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/polyfills.bundle.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/polyfills.bundle.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/scripts.bundle.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/scripts.bundle.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/styles.bundle.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/styles.bundle.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/vendor.bundle.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/vendor.bundle.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/lzjuhuenng/enjoybooks/controller/ForwardAndRedirectAction.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/lzjuhuenng/enjoybooks/controller/ModelAttrAction.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/lzjuhuenng/enjoybooks/controller/RequestMethodAction.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/lzjuhuenng/enjoybooks/controller/SessionAttrAction.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/lzjuhuenng/enjoybooks/controller/UserInfoAction.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/lzjuhuenng/enjoybooks/pojo/Department.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/lzjuhuenng/enjoybooks/pojo/UserInfo.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/lzjuhuenng/enjoybooks/service/UserInfoService.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/lzjuhuenng/enjoybooks/service/impl/UserInfoServiceImpl.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/enjoybooks/0.chunk.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/enjoybooks/0.chunk.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/enjoybooks/1.chunk.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/enjoybooks/1.chunk.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/enjoybooks/2.chunk.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/enjoybooks/2.chunk.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/enjoybooks/3.chunk.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/enjoybooks/3.chunk.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/enjoybooks/WEB-INF/classes/com/lzjuhuenng/enjoybooks/controller/ForwardAndRedirectAction.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/enjoybooks/WEB-INF/classes/com/lzjuhuenng/enjoybooks/controller/ModelAttrAction.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/enjoybooks/WEB-INF/classes/com/lzjuhuenng/enjoybooks/controller/RequestMethodAction.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/enjoybooks/WEB-INF/classes/com/lzjuhuenng/enjoybooks/controller/SessionAttrAction.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/enjoybooks/WEB-INF/classes/com/lzjuhuenng/enjoybooks/controller/UserInfoAction.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/enjoybooks/WEB-INF/classes/com/lzjuhuenng/enjoybooks/pojo/Department.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/enjoybooks/WEB-INF/classes/com/lzjuhuenng/enjoybooks/pojo/UserInfo.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/enjoybooks/WEB-INF/classes/com/lzjuhuenng/enjoybooks/service/UserInfoService.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/enjoybooks/WEB-INF/classes/com/lzjuhuenng/enjoybooks/service/impl/UserInfoServiceImpl.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/enjoybooks/assets/.npmignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/enjoybooks/assets/book/6490.epub" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/enjoybooks/assets/book/64960.epub" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/enjoybooks/assets/book/Code Complete 2nd.epub" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/enjoybooks/assets/book/moby-dick.epub" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/enjoybooks/assets/bootstrap-v3.3.7/bootstrap-theme.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/enjoybooks/assets/bootstrap-v3.3.7/bootstrap-theme.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/enjoybooks/assets/bootstrap-v3.3.7/bootstrap.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/enjoybooks/assets/bootstrap-v3.3.7/bootstrap.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/enjoybooks/assets/css/animate.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/enjoybooks/assets/css/epub/annotations.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/enjoybooks/assets/css/epub/main.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/enjoybooks/assets/css/epub/normalize.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/enjoybooks/assets/css/epub/popup.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/enjoybooks/assets/css/prism.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/enjoybooks/assets/font-awesome.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/enjoybooks/assets/font-awesome.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/enjoybooks/assets/fonts/FontAwesome.otf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/enjoybooks/assets/fonts/bootstrap/glyphicons-halflings-regular.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/enjoybooks/assets/fonts/bootstrap/glyphicons-halflings-regular.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/enjoybooks/assets/fonts/bootstrap/glyphicons-halflings-regular.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/enjoybooks/assets/fonts/bootstrap/glyphicons-halflings-regular.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/enjoybooks/assets/fonts/bootstrap/glyphicons-halflings-regular.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/enjoybooks/assets/fonts/epub/fontello.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/enjoybooks/assets/fonts/epub/fontello.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/enjoybooks/assets/fonts/epub/fontello.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/enjoybooks/assets/fonts/epub/fontello.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/enjoybooks/assets/fonts/fontawesome-webfont.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/enjoybooks/assets/fonts/fontawesome-webfont.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/enjoybooks/assets/fonts/fontawesome-webfont.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/enjoybooks/assets/fonts/fontawesome-webfont.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/enjoybooks/assets/fonts/fontawesome-webfont.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/enjoybooks/assets/fonts/glyphicons-halflings-regular.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/enjoybooks/assets/fonts/glyphicons-halflings-regular.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/enjoybooks/assets/fonts/glyphicons-halflings-regular.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/enjoybooks/assets/fonts/glyphicons-halflings-regular.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/enjoybooks/assets/fonts/glyphicons-halflings-regular.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/enjoybooks/assets/fonts/icomoon/icomoon.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/enjoybooks/assets/fonts/icomoon/icomoon.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/enjoybooks/assets/fonts/icomoon/icomoon.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/enjoybooks/assets/fonts/icomoon/icomoon.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/enjoybooks/assets/fonts/icomoon/icomoon/Read Me.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/enjoybooks/assets/fonts/icomoon/icomoon/demo-files/demo.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/enjoybooks/assets/fonts/icomoon/icomoon/demo.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/enjoybooks/assets/fonts/icomoon/icomoon/fonts/icomoon.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/enjoybooks/assets/fonts/icomoon/icomoon/fonts/icomoon.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/enjoybooks/assets/fonts/icomoon/icomoon/fonts/icomoon.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/enjoybooks/assets/fonts/icomoon/icomoon/fonts/icomoon.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/enjoybooks/assets/fonts/icomoon/icomoon/selection.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/enjoybooks/assets/fonts/icomoon/icomoon/style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/enjoybooks/assets/fonts/simple-line-icons/Simple-Line-Icons.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/enjoybooks/assets/fonts/simple-line-icons/Simple-Line-Icons.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/enjoybooks/assets/fonts/simple-line-icons/Simple-Line-Icons.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/enjoybooks/assets/fonts/simple-line-icons/Simple-Line-Icons.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/enjoybooks/assets/fonts/simple-line-icons/Simple-Line-Icons.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/enjoybooks/assets/i18n/en.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/enjoybooks/assets/i18n/zh.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/enjoybooks/assets/imgs/1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/enjoybooks/assets/imgs/10.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/enjoybooks/assets/imgs/113.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/enjoybooks/assets/imgs/114.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/enjoybooks/assets/imgs/115.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/enjoybooks/assets/imgs/116.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/enjoybooks/assets/imgs/2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/enjoybooks/assets/imgs/3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/enjoybooks/assets/imgs/4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/enjoybooks/assets/imgs/5.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/enjoybooks/assets/imgs/6.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/enjoybooks/assets/imgs/7.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/enjoybooks/assets/imgs/8.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/enjoybooks/assets/imgs/9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/enjoybooks/assets/imgs/angular-wechat-channel.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/enjoybooks/assets/imgs/angular-weibo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/enjoybooks/assets/imgs/angular.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/enjoybooks/assets/imgs/angular2-small.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/enjoybooks/assets/imgs/angular2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/enjoybooks/assets/imgs/annotator-glyph-sprite.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/enjoybooks/assets/imgs/annotator-icon-sprite.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/enjoybooks/assets/imgs/apple-touch-icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/enjoybooks/assets/imgs/cancelfullscreen.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/enjoybooks/assets/imgs/close.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/enjoybooks/assets/imgs/fullscreen.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/enjoybooks/assets/imgs/loader.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/enjoybooks/assets/imgs/menu-icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/enjoybooks/assets/imgs/save.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/enjoybooks/assets/imgs/saved.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/enjoybooks/assets/imgs/settings-s.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/enjoybooks/assets/imgs/settings.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/enjoybooks/assets/imgs/star.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/enjoybooks/assets/imgs/thumb.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/enjoybooks/assets/js/epub.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/enjoybooks/assets/js/hooks.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/enjoybooks/assets/js/jquery.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/enjoybooks/assets/js/reader.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/enjoybooks/assets/js/screenfull.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/enjoybooks/assets/js/zip.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/enjoybooks/assets/skins/lightgray/content.inline.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/enjoybooks/assets/skins/lightgray/content.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/enjoybooks/assets/skins/lightgray/fonts/tinymce-small.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/enjoybooks/assets/skins/lightgray/fonts/tinymce-small.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/enjoybooks/assets/skins/lightgray/fonts/tinymce-small.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/enjoybooks/assets/skins/lightgray/fonts/tinymce-small.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/enjoybooks/assets/skins/lightgray/fonts/tinymce.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/enjoybooks/assets/skins/lightgray/fonts/tinymce.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/enjoybooks/assets/skins/lightgray/fonts/tinymce.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/enjoybooks/assets/skins/lightgray/fonts/tinymce.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/enjoybooks/assets/skins/lightgray/img/anchor.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/enjoybooks/assets/skins/lightgray/img/loader.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/enjoybooks/assets/skins/lightgray/img/object.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/enjoybooks/assets/skins/lightgray/img/trans.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/enjoybooks/assets/skins/lightgray/skin.ie7.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/enjoybooks/assets/skins/lightgray/skin.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/enjoybooks/dist.zip" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/enjoybooks/favicon.ico" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/enjoybooks/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/enjoybooks/inline.bundle.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/enjoybooks/inline.bundle.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/enjoybooks/main.bundle.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/enjoybooks/main.bundle.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/enjoybooks/ng2-toastr.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/enjoybooks/polyfills.bundle.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/enjoybooks/polyfills.bundle.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/enjoybooks/scripts.bundle.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/enjoybooks/scripts.bundle.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/enjoybooks/styles.bundle.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/enjoybooks/styles.bundle.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/enjoybooks/vendor.bundle.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/enjoybooks/vendor.bundle.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/Test.class" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/lzjuhuenng/enjoybooks/controller/BookController.java" afterPath="$PROJECT_DIR$/src/main/java/com/lzjuhuenng/enjoybooks/controller/BookController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/lzjuhuenng/enjoybooks/dao/BookDao.java" afterPath="$PROJECT_DIR$/src/main/java/com/lzjuhuenng/enjoybooks/dao/BookDao.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/lzjuhuenng/enjoybooks/pojo/Book.java" afterPath="$PROJECT_DIR$/src/main/java/com/lzjuhuenng/enjoybooks/pojo/Book.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/lzjuhuenng/enjoybooks/pojo/BookType.java" afterPath="$PROJECT_DIR$/src/main/java/com/lzjuhuenng/enjoybooks/pojo/BookType.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/com/lzjuhuenng/enjoybooks/mapping/BookMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/com/lzjuhuenng/enjoybooks/mapping/BookMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/spring-mvc.xml" afterPath="$PROJECT_DIR$/src/main/resources/spring-mvc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/spring-mvc.xml" afterPath="$PROJECT_DIR$/target/classes/spring-mvc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/enjoybooks/WEB-INF/classes/spring-mvc.xml" afterPath="$PROJECT_DIR$/target/enjoybooks/WEB-INF/classes/spring-mvc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/enjoybooks/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/target/enjoybooks/WEB-INF/web.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/lzjuhuenng/enjoybooks/pojo/BookMark.java" afterPath="$PROJECT_DIR$/src/main/java/com/lzjuhuenng/enjoybooks/pojo/Bookmark.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -342,12 +29,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="BookService.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="BookService.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/lzjuhuenng/enjoybooks/service/BookService.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="368">
               <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="0">
+                <caret line="0" column="62" lean-forward="false" selection-start-line="0" selection-start-column="62" selection-end-line="0" selection-end-column="62" />
+                <folding />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -397,7 +97,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/resources/log4j.properties" />
         <option value="$PROJECT_DIR$/src/main/resources/config.properties" />
         <option value="$PROJECT_DIR$/src/main/java/com/lzjuhuenng/enjoybooks/dao/AccountDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/lzjuhuenng/enjoybooks/pojo/Account.java" />
@@ -448,6 +147,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/lzjuhuenng/enjoybooks/service/BookService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/lzjuhuenng/enjoybooks/service/impl/BookServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/lzjuhuenng/enjoybooks/controller/BookController.java" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -1369,7 +1069,7 @@
       <workItem from="1491282188277" duration="12393000" />
       <workItem from="1491391591270" duration="5821000" />
       <workItem from="1491485819808" duration="18866000" />
-      <workItem from="1491699262312" duration="1096000" />
+      <workItem from="1491699262312" duration="1657000" />
     </task>
     <servers />
   </component>
@@ -1379,7 +1079,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53516000" />
+    <option name="totallyTimeSpent" value="54077000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1392,6 +1092,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1358" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1417,7 +1118,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5520607" sideWeight="0.8715352" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329718" sideWeight="0.4978678" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16151386" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16151386" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
@@ -1486,7 +1187,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lzjuhuenng/enjoybooks/controller/ForwardAndRedirectAction.java" />
     <entry file="file://$PROJECT_DIR$/src/main/resources/spring.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="230">
@@ -1794,6 +1494,17 @@
         <state relative-caret-position="368">
           <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="62" lean-forward="false" selection-start-line="0" selection-start-column="62" selection-end-line="0" selection-end-column="62" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
