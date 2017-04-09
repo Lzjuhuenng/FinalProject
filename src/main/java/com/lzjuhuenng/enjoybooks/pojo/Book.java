@@ -24,12 +24,13 @@ public class Book {
     //图书的路径
     private String bookPath;
     //图书的书签的集合
-    private List<BookMark> bookMarkList;
+    private List<Bookmark> bookmarkList;
     //图书的上次阅读状态
     private String lastRead;
+    //最后一次阅读的时间
+    private String lastReadTime;
     //用户Id
     private int accountId;
-
     //图书的状态
     private int state;
 
@@ -97,12 +98,12 @@ public class Book {
         this.bookPath = bookPath;
     }
 
-    public List<BookMark> getBookMarkList() {
-        return bookMarkList;
+    public List<Bookmark> getBookmarkList() {
+        return bookmarkList;
     }
 
-    public void setBookMarkList(List<BookMark> bookMarkList) {
-        this.bookMarkList = bookMarkList;
+    public void setBookmarkList(List<Bookmark> bookmarkList) {
+        this.bookmarkList = bookmarkList;
     }
 
     public String getLastRead() {
@@ -121,6 +122,13 @@ public class Book {
         this.accountId = accountId;
     }
 
+    public String getLastReadTime() {
+        return lastReadTime;
+    }
+
+    public void setLastReadTime(String lastReadTime) {
+        this.lastReadTime = lastReadTime;
+    }
 
     public int getState() {
         return state;
@@ -128,5 +136,24 @@ public class Book {
 
     public void setState(int state) {
         this.state = state;
+    }
+
+    @Override
+    public String toString() {
+        return "Book{" +
+                "id=" + id +
+                ", bookName='" + bookName + '\'' +
+                ", bookAuthor='" + bookAuthor + '\'' +
+                ", bookType=" + bookType +
+                ", coverURL='" + coverURL + '\'' +
+                ", bookDate='" + bookDate + '\'' +
+                ", bookBrief='" + bookBrief + '\'' +
+                ", bookPath='" + bookPath + '\'' +
+                ", bookmarkList=" + bookmarkList +
+                ", lastRead='" + lastRead + '\'' +
+                ", lastReadTime='" + lastReadTime + '\'' +
+                ", accountId=" + accountId +
+                ", state=" + state +
+                '}';
     }
 }

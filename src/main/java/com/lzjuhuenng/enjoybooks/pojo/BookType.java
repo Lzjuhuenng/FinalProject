@@ -35,4 +35,13 @@ public class BookType {
     public void setState(int state) {
         this.state = state;
     }
+
+    @Override
+    public String toString() {
+        return "BookType{" +
+                "id=" + id +
+                ", bookType='" + bookType + '\'' +
+                ", state=" + state +
+                '}';
+    }
 }
