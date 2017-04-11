@@ -47,12 +47,42 @@
         select count(*) as TOTAL_NUM from book where 1=1;
     </select>
 
+    <select id="selectCountWithSearch" resultType="java.lang.Integer">
+        select count(*) as TOTAL_NUM from book where bookName LIKE #{searchText};
+    </select>
+
+    <select id="selectCountWithTypeIdAndSearch" resultType="java.lang.Integer">
+        select count(*) as TOTAL_NUM from book where typeId = #{typeId} AND bookName LIKE #{searchText};
+    </select>
 
     <select id="selectByPage" resultMap="bookMap" parameterType="java.lang.Integer">
+    select
+    <include refid="Book_Column_List" />
+    from book
+    where 1=1
+    limit #{beginRow},#{pageSize}
+    </select>
+
+    <select id="selectByPageWithSearch" resultMap="bookMap">
         select
         <include refid="Book_Column_List" />
         from book
-        where 1=1
+        where bookName LIKE #{searchText}
         limit #{beginRow},#{pageSize}
+    </select>
+
+    <select id="selectByPageWithTypeIdAndSearch" resultMap="bookMap" >
+        select
+        <include refid="Book_Column_List" />
+        from book
+        where typeId = #{typeId} and bookName LIKE #{searchText}
+        limit #{beginRow},#{pageSize}
+    </select>
+
+    <select id="selectBookById" resultMap="bookMap">
+        select
+        <include refid="Book_Column_List" />
+        from book
+        where id = #{bookId}
     </select>
 </mapper>

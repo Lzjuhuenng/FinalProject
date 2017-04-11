@@ -14,7 +14,15 @@ public interface BookService {
 
     public int selectCount();
 
+    public int selectCountWithSearch(String searchText);
+
+    public int selectCountWithTypeIdAndSearch(int typeId , String searchText);
+
     public List<Book> selectByPage(int beginRow,int pageSize);
 
-    public List<Book> SelectTypeBook(int typeId,int beginRow,int pageSize);
+    public List<Book> selectByPageWithSearch(String searchText,int beginRow,int pageSize);
+
+    public List<Book> selectByPageWithTypeIdAndSearch(int typeId , String searchText,int beginRow,int pageSize);
+
+    public Book selectBookById(int BookId);
 }

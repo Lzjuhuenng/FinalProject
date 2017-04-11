@@ -28,6 +28,8 @@ public class AccessController extends BaseController {
         Account acc = accountService.findByAccount(account.getAccount());
         System.out.println("acc"+acc);
         System.out.println("account"+account);
+
+        System.out.println(session.getId()+"==========================");
         if(null==acc){
             return this.ajaxFailureResponse("用户名或者密码错误");
         }

@@ -24,11 +24,27 @@ public class BookServiceImpl implements BookService {
         return bookDao.selectCount();
     }
 
+    public int selectCountWithSearch(String searchText) {
+        return bookDao.selectCountWithSearch(searchText);
+    }
+
+    public int selectCountWithTypeIdAndSearch(int typeId, String searchText) {
+        return bookDao.selectCountWithTypeIdAndSearch(typeId,searchText);
+    }
+
     public List<Book> selectByPage(int beginRow, int pageSize) {
         return bookDao.selectByPage(beginRow,pageSize);
     }
 
-    public List<Book> SelectTypeBook(int typeId, int beginRow, int pageSize) {
-        return null;
+    public List<Book> selectByPageWithSearch(String searchText, int beginRow, int pageSize) {
+        return bookDao.selectByPageWithSearch(searchText,beginRow,pageSize);
+    }
+
+    public List<Book> selectByPageWithTypeIdAndSearch(int typeId, String searchText, int beginRow, int pageSize) {
+        return bookDao.selectByPageWithTypeIdAndSearch(typeId,searchText,beginRow,pageSize);
+    }
+
+    public Book selectBookById(int bookId) {
+        return bookDao.selectBookById(bookId);
     }
 }

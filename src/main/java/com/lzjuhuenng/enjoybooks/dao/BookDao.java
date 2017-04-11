@@ -14,4 +14,10 @@ public interface BookDao {
     public BookType getBookType(Integer typeId);
     List<Book> selectByPage(@Param("beginRow") int beginRow, @Param("pageSize") int pageSize);
     public int selectCount();
+    public int selectCountWithSearch(@Param("searchText") String searchText);
+    public int selectCountWithTypeIdAndSearch(@Param("typeId") int typeId  ,@Param("searchText") String searchText);
+    List<Book> selectByPageWithSearch(@Param("searchText") String searchText ,@Param("beginRow") int beginRow, @Param("pageSize") int pageSize);
+    List<Book> selectByPageWithTypeIdAndSearch(@Param("typeId") int typeId  ,@Param("searchText") String searchText ,@Param("beginRow") int beginRow, @Param("pageSize") int pageSize);
+
+    Book selectBookById(int bookId);
 }
