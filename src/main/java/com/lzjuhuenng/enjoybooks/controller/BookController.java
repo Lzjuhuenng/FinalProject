@@ -34,8 +34,15 @@ public class BookController extends BaseController {
     @CrossOrigin(origins = "*", methods = RequestMethod.GET,maxAge = 3600)
     @RequestMapping(value = "/getBooks/{typeId}/{pageIndex}/{searchText}", method = RequestMethod.GET)
     @ResponseBody
-    public Map<String,Object> getBookList(@PathVariable int typeId ,@PathVariable int pageIndex ,@PathVariable String searchText) throws Exception{
+    public Map<String,Object> getBookList(@PathVariable int typeId ,@PathVariable int pageIndex ,@PathVariable String searchText,HttpSession session) throws Exception{
 
+
+        Account acc = (Account) session.getAttribute(ConstSessionName.UserInfo);
+
+        if(acc==null){
+            acc = new Account();
+        }
+        System.out.println("=========================="+acc.getId()+"======="+acc.getAccount());
         int totalRecords =0;
         List<Book> list = null;
 
@@ -61,6 +68,7 @@ public class BookController extends BaseController {
         map.put("pageSize", pageSize);
         map.put("currentPage", pageIndex);
         map.put("list", list);
+
         return map;
     }
 
@@ -70,10 +78,45 @@ public class BookController extends BaseController {
     @ResponseBody
     public Book getBookDetails(@PathVariable int bookId,HttpSession session) throws Exception{
 
-        System.out.println(session.getId()+"==========================");
         Account acc = (Account) session.getAttribute(ConstSessionName.UserInfo);
-        System.out.println(acc.toString());
-        return bookService.selectBookById(bookId);
+
+        if(acc==null){
+            acc = new Account();
+        }
+        Book book = bookService.selectBookById(bookId);
+        if(bookService.isBookInShelf(bookId,acc.getId())){
+            book.setAccountId(acc.getId());
+        }
+
+        return book;
+    }
+
+    @CrossOrigin(origins = "*", methods = RequestMethod.GET,maxAge = 3600)
+    @RequestMapping(value = "/addBookToShelf/{bookId}", method = RequestMethod.GET)
+    @ResponseBody
+    public boolean addBookToShelf(@PathVariable int bookId,HttpSession session) throws Exception{
+
+        Account acc = (Account) session.getAttribute(ConstSessionName.UserInfo);
+
+        if(acc==null){
+            acc = new Account();
+        }
+
+        return bookService.addBookToShelf(bookId,acc.getId());
+    }
+
+    @CrossOrigin(origins = "*", methods = RequestMethod.GET,maxAge = 3600)
+    @RequestMapping(value = "/getReadBook/{bookId}", method = RequestMethod.GET)
+    @ResponseBody
+    public Book getReadBook(@PathVariable int bookId,HttpSession session) throws Exception{
+
+        Account acc = (Account) session.getAttribute(ConstSessionName.UserInfo);
+
+        if(acc==null){
+            acc = new Account();
+        }
+
+        return bookService.getShelfBook(bookId,acc.getId());
     }
 
 

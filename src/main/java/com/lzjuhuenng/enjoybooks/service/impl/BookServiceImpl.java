@@ -1,6 +1,7 @@
 package com.lzjuhuenng.enjoybooks.service.impl;
 
 import com.lzjuhuenng.enjoybooks.dao.BookDao;
+import com.lzjuhuenng.enjoybooks.dao.ShelfDao;
 import com.lzjuhuenng.enjoybooks.pojo.Book;
 import com.lzjuhuenng.enjoybooks.service.BookService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -15,6 +16,8 @@ import java.util.List;
 public class BookServiceImpl implements BookService {
     @Autowired
     BookDao bookDao;
+    @Autowired
+    ShelfDao shelfDao;
 
     public List<Book> getBookList(){
         return bookDao.getAllBook();
@@ -46,5 +49,17 @@ public class BookServiceImpl implements BookService {
 
     public Book selectBookById(int bookId) {
         return bookDao.selectBookById(bookId);
+    }
+
+    public boolean addBookToShelf(int bookId, int account) {
+        return bookDao.insertBookToShlef(bookId,account) > 0;
+    }
+
+    public boolean isBookInShelf(int bookId, int accountId) {
+        return bookDao.indexBookInShlef(bookId,accountId)>0;
+    }
+
+    public Book getShelfBook(int bookId, int accountId) {
+        return shelfDao.selectBook(bookId,accountId);
     }
 }

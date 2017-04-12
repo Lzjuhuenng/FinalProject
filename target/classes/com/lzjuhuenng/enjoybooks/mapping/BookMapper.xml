@@ -9,6 +9,9 @@
         <result column="bookDate" property="bookDate" jdbcType="VARCHAR"/>
         <result column="bookBrief" property="bookBrief" jdbcType="VARCHAR" />
         <result column="bookPath" property="bookPath" jdbcType="VARCHAR"/>
+        <result column="accountId" property="accountId" jdbcType="INTEGER" />
+        <result column="lastRead" property="lastRead" jdbcType="VARCHAR"/>
+        <result column="lastReadTime" property="lastReadTime" jdbcType="VARCHAR"/>
         <association property="bookType" column="typeId" javaType="com.lzjuhuenng.enjoybooks.pojo.BookType" select="getBookType"/>
         <!--<collection property="bookmarkList" column="bookId" javaType="ArrayList"-->
                     <!--ofType="com.lzjuhuenng.enjoybooks.pojo.Bookmark" select="getBookMID"/>-->
@@ -28,7 +31,7 @@
     </resultMap>
 
     <sql id="Book_Column_List">
-      id,bookName,bookAuthor,typeId,coverURL,bookDate,bookBrief,bookPath,state
+      id,bookName,bookAuthor,typeId,coverURL,bookDate,bookBrief,bookPath
     </sql>
 
     <select id="getBookType" resultMap="bookTypeMap" parameterType="java.lang.Integer" >
@@ -85,4 +88,14 @@
         from book
         where id = #{bookId}
     </select>
+
+    <insert id="insertBookToShlef" useGeneratedKeys="true">
+        INSERT INTO shelfbook (bookId,accountId,state)
+        VALUE (#{bookId,jdbcType=INTEGER},#{accountId,jdbcType=INTEGER},1)
+
+    </insert>
+    <select id="indexBookInShlef" resultType="java.lang.Integer">
+        SELECT COUNT(*) FROM shelfbook where bookId=#{bookId} and accountId=#{accountId}
+    </select>
+
 </mapper>

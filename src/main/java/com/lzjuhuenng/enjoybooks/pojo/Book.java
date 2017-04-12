@@ -34,6 +34,8 @@ public class Book {
     //图书的状态
     private int state;
 
+    private int shelfId;
+
     public int getId() {
         return id;
     }
@@ -136,6 +138,14 @@ public class Book {
 
     public void setState(int state) {
         this.state = state;
+    }
+
+    public int getShelfId() {
+        return shelfId;
+    }
+
+    public void setShelfId(int shelfId) {
+        this.shelfId = shelfId;
     }
 
     @Override

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.lzjuhuenng.enjoybooks.dao.ShelfDao">
+    <resultMap id="bookMap" type="com.lzjuhuenng.enjoybooks.pojo.Book" >
+        <id column="id" property="id" jdbcType="INTEGER" />
+        <result column="bookName" property="bookName" jdbcType="VARCHAR" />
+        <result column="bookAuthor" property="bookAuthor" jdbcType="VARCHAR"/>
+        <result column="coverURL" property="coverURL" jdbcType="VARCHAR" />
+        <result column="bookDate" property="bookDate" jdbcType="VARCHAR"/>
+        <result column="shelfId"  property="shelfId" jdbcType="INTEGER"/>
+        <result column="bookBrief" property="bookBrief" jdbcType="VARCHAR" />
+        <result column="bookPath" property="bookPath" jdbcType="VARCHAR"/>
+        <result column="accountId" property="accountId" jdbcType="INTEGER" />
+        <result column="lastRead" property="lastRead" jdbcType="VARCHAR"/>
+        <result column="lastReadTime" property="lastReadTime" jdbcType="VARCHAR"/>
+        <collection property="bookmarkList" column="bookId" javaType="ArrayList"
+                    ofType="com.lzjuhuenng.enjoybooks.pojo.Bookmark" select="getBookmarks"/>
+    </resultMap>
+
+    <resultMap id="bookmarkMap" type="com.lzjuhuenng.enjoybooks.pojo.Bookmark">
+        <id property="id" column="id" jdbcType="INTEGER"/>
+        <result property="sheifBookId" column="sheifBookId" jdbcType="INTEGER"  />
+        <result property="bookmarkTitle" column="bookmarkTitle" jdbcType="VARCHAR"  />
+        <result property="epubcfi" column="epubcfi" jdbcType="VARCHAR" />
+    </resultMap>
+
+    <select id="selectBook" resultMap="bookMap">
+        SELECT a.id as shelfId,a.lastRead,a.accountId,b.bookPath
+        FROM shelfbook a
+        LEFT JOIN book b
+        ON a.bookId = b.id
+        WHERE a.bookId = #{bookId} and a.accountId = #{accountId};
+    </select>
+    <select id="getBookmarks" resultMap="bookmarkMap">
+        SELECT *
+        FROM bookmark
+        WHERE sheifBookId = #{shelfId}
+    </select>
+
+    <!--<select id="selectByPage" resultMap="bookMap" parameterType="java.lang.Integer">-->
+        <!--select -->
+        <!--from book-->
+        <!--where 1=1-->
+        <!--limit #{beginRow},#{pageSize}-->
+    <!--</select>-->
+
+</mapper>

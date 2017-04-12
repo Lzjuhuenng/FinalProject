@@ -20,4 +20,7 @@ public interface BookDao {
     List<Book> selectByPageWithTypeIdAndSearch(@Param("typeId") int typeId  ,@Param("searchText") String searchText ,@Param("beginRow") int beginRow, @Param("pageSize") int pageSize);
 
     Book selectBookById(int bookId);
+    int insertBookToShlef(@Param("bookId") int bookId,@Param("accountId") int accountId);
+    int indexBookInShlef(@Param("bookId") int bookId,@Param("accountId") int accountId);
+
 }

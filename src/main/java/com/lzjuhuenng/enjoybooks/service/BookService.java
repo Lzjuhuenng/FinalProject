@@ -20,9 +20,15 @@ public interface BookService {
 
     public List<Book> selectByPage(int beginRow,int pageSize);
 
-    public List<Book> selectByPageWithSearch(String searchText,int beginRow,int pageSize);
+    public List<Book> selectByPageWithSearch(String searchText,int beginRow,int pageSize );
 
     public List<Book> selectByPageWithTypeIdAndSearch(int typeId , String searchText,int beginRow,int pageSize);
 
     public Book selectBookById(int BookId);
+
+    public boolean addBookToShelf(int bookId,int accountId);
+
+    boolean isBookInShelf(int bookId,int accountId);
+
+    Book getShelfBook(int bookId,int accountId);
 }

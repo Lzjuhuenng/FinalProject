@@ -7,14 +7,12 @@ public class Bookmark {
 
     //书签的id
     private int id;
-    //书签对应的书籍的ID
-    private int bookId;
-    //用户ID
-    private int accountId;
+    //
+    private int sheifBookId;
     //书签标题
     private String bookmarkTitle;
     //书签的跳转链接
-    private String bookmarkCfi;
+    private String epubcfi;
 
     public int getId() {
         return id;
@@ -32,27 +30,19 @@ public class Bookmark {
         this.bookmarkTitle = bookmarkTitle;
     }
 
-    public String getBookmarkCfi() {
-        return bookmarkCfi;
+    public String getEpubcfi() {
+        return epubcfi;
     }
 
-    public void setBookmarkCfi(String bookmarkCfi) {
-        this.bookmarkCfi = bookmarkCfi;
+    public void setEpubcfi(String epubcfi) {
+        this.epubcfi = epubcfi;
     }
 
-    public int getBookId() {
-        return bookId;
+    public int getSheifBookId() {
+        return sheifBookId;
     }
 
-    public void setBookId(int bookId) {
-        this.bookId = bookId;
-    }
-
-    public int getAccountId() {
-        return accountId;
-    }
-
-    public void setAccountId(int accountId) {
-        this.accountId = accountId;
+    public void setSheifBookId(int sheifBookId) {
+        this.sheifBookId = sheifBookId;
     }
 }
