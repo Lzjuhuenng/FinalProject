@@ -2,27 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a3f70aa9-463b-49dd-abf4-8bfe888e985b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/lzjuhuenng/enjoybooks/dao/ShelfDao.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/com/lzjuhuenng/enjoybooks/mapping/ShelfMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/lzjuhuenng/enjoybooks/controller/BookController.class" afterPath="$PROJECT_DIR$/target/classes/com/lzjuhuenng/enjoybooks/controller/BookController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/lzjuhuenng/enjoybooks/dao/BookDao.class" afterPath="$PROJECT_DIR$/target/classes/com/lzjuhuenng/enjoybooks/dao/BookDao.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/lzjuhuenng/enjoybooks/service/BookService.class" afterPath="$PROJECT_DIR$/target/classes/com/lzjuhuenng/enjoybooks/service/BookService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/lzjuhuenng/enjoybooks/service/impl/BookServiceImpl.class" afterPath="$PROJECT_DIR$/target/classes/com/lzjuhuenng/enjoybooks/service/impl/BookServiceImpl.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/lzjuhuenng/enjoybooks/util/base/DateUtil.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/lzjuhuenng/enjoybooks/controller/BookController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/lzjuhuenng/enjoybooks/service/BookService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/lzjuhuenng/enjoybooks/service/impl/BookServiceImpl.class" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/lzjuhuenng/enjoybooks/pojo/Book.class" afterPath="$PROJECT_DIR$/target/classes/com/lzjuhuenng/enjoybooks/pojo/Book.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/lzjuhuenng/enjoybooks/pojo/Bookmark.class" afterPath="$PROJECT_DIR$/target/classes/com/lzjuhuenng/enjoybooks/pojo/Bookmark.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/enjoybooks/WEB-INF/classes/com/lzjuhuenng/enjoybooks/controller/BookController.class" afterPath="$PROJECT_DIR$/target/enjoybooks/WEB-INF/classes/com/lzjuhuenng/enjoybooks/controller/BookController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/enjoybooks/WEB-INF/classes/com/lzjuhuenng/enjoybooks/dao/BookDao.class" afterPath="$PROJECT_DIR$/target/enjoybooks/WEB-INF/classes/com/lzjuhuenng/enjoybooks/dao/BookDao.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/enjoybooks/WEB-INF/classes/com/lzjuhuenng/enjoybooks/service/BookService.class" afterPath="$PROJECT_DIR$/target/enjoybooks/WEB-INF/classes/com/lzjuhuenng/enjoybooks/service/BookService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/enjoybooks/WEB-INF/classes/com/lzjuhuenng/enjoybooks/service/impl/BookServiceImpl.class" afterPath="$PROJECT_DIR$/target/enjoybooks/WEB-INF/classes/com/lzjuhuenng/enjoybooks/service/impl/BookServiceImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/enjoybooks/WEB-INF/classes/com/lzjuhuenng/enjoybooks/pojo/Book.class" afterPath="$PROJECT_DIR$/target/enjoybooks/WEB-INF/classes/com/lzjuhuenng/enjoybooks/pojo/Book.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/enjoybooks/WEB-INF/classes/com/lzjuhuenng/enjoybooks/pojo/Bookmark.class" afterPath="$PROJECT_DIR$/target/enjoybooks/WEB-INF/classes/com/lzjuhuenng/enjoybooks/pojo/Bookmark.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/lzjuhuenng/enjoybooks/controller/BookController.java" afterPath="$PROJECT_DIR$/src/main/java/com/lzjuhuenng/enjoybooks/controller/BookController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/lzjuhuenng/enjoybooks/dao/BookDao.java" afterPath="$PROJECT_DIR$/src/main/java/com/lzjuhuenng/enjoybooks/dao/BookDao.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/lzjuhuenng/enjoybooks/pojo/Book.java" afterPath="$PROJECT_DIR$/src/main/java/com/lzjuhuenng/enjoybooks/pojo/Book.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/lzjuhuenng/enjoybooks/pojo/Bookmark.java" afterPath="$PROJECT_DIR$/src/main/java/com/lzjuhuenng/enjoybooks/pojo/Bookmark.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/lzjuhuenng/enjoybooks/dao/ShelfDao.java" afterPath="$PROJECT_DIR$/src/main/java/com/lzjuhuenng/enjoybooks/dao/ShelfDao.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/lzjuhuenng/enjoybooks/service/BookService.java" afterPath="$PROJECT_DIR$/src/main/java/com/lzjuhuenng/enjoybooks/service/BookService.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/lzjuhuenng/enjoybooks/service/impl/BookServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/lzjuhuenng/enjoybooks/service/impl/BookServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/com/lzjuhuenng/enjoybooks/mapping/BookMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/com/lzjuhuenng/enjoybooks/mapping/BookMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/lzjuhuenng/enjoybooks/mapping/BookMapper.xml" afterPath="$PROJECT_DIR$/target/classes/com/lzjuhuenng/enjoybooks/mapping/BookMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/enjoybooks/WEB-INF/classes/com/lzjuhuenng/enjoybooks/mapping/BookMapper.xml" afterPath="$PROJECT_DIR$/target/enjoybooks/WEB-INF/classes/com/lzjuhuenng/enjoybooks/mapping/BookMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/enjoybooks/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/target/enjoybooks/WEB-INF/web.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/com/lzjuhuenng/enjoybooks/mapping/ShelfMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/com/lzjuhuenng/enjoybooks/mapping/ShelfMapper.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -51,47 +45,8 @@
       <file leaf-file-name="BookController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/lzjuhuenng/enjoybooks/controller/BookController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="381">
-              <caret line="118" column="39" lean-forward="false" selection-start-line="118" selection-start-column="27" selection-end-line="118" selection-end-column="39" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ShelfMapper.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/com/lzjuhuenng/enjoybooks/mapping/ShelfMapper.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="44" selection-end-column="17" />
-              <folding>
-                <marker date="1492009825961" expanded="true" signature="1761:1960" ph="SELECT a.id shelfbook" />
-                <marker date="1492009825961" expanded="true" signature="2039:2108" ph="SELECT * FRO... bookmark" />
-                <marker date="1492009825961" expanded="true" signature="2228:2330" ph="select from book" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Bookmark.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/lzjuhuenng/enjoybooks/pojo/Bookmark.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="79">
-              <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-              <folding>
-                <element signature="e#747#748#0" expanded="true" />
-                <element signature="e#781#782#0" expanded="true" />
-                <element signature="e#832#833#0" expanded="true" />
-                <element signature="e#878#879#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ShelfDao.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/lzjuhuenng/enjoybooks/dao/ShelfDao.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="9" column="19" lean-forward="false" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="19" />
+            <state relative-caret-position="114">
+              <caret line="130" column="0" lean-forward="false" selection-start-line="130" selection-start-column="0" selection-end-line="130" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -99,43 +54,80 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BookMapper.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/com/lzjuhuenng/enjoybooks/mapping/BookMapper.xml">
+      <file leaf-file-name="Book.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/lzjuhuenng/enjoybooks/pojo/Book.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="60" column="0" lean-forward="false" selection-start-line="60" selection-start-column="0" selection-end-line="66" selection-end-column="13" />
+            <state relative-caret-position="509">
+              <caret line="142" column="29" lean-forward="false" selection-start-line="142" selection-start-column="29" selection-end-line="142" selection-end-column="29" />
               <folding>
-                <marker date="1492005572659" expanded="true" signature="2365:2441" ph="select class... class_t" />
-                <marker date="1492005572659" expanded="true" signature="2514:2630" ph="select stuID... student_t" />
-                <marker date="1492005572659" expanded="true" signature="2514:2631" ph="select id,bo... book" />
-                <marker date="1492005572659" expanded="true" signature="2716:2764" ph="select count... book" />
-                <marker date="1492005572659" expanded="true" signature="2860:2909" ph="select count... book" />
-                <marker date="1492005572659" expanded="true" signature="2860:2932" ph="select count... book" />
-                <marker date="1492005572659" expanded="true" signature="3037:3132" ph="select count... book" />
-                <marker date="1492005572659" expanded="true" signature="3238:3347" ph="select from book" />
-                <marker date="1492005572659" expanded="true" signature="3432:3581" ph="select from book" />
-                <marker date="1492005572659" expanded="true" signature="3676:3848" ph="select from book" />
-                <marker date="1492005572659" expanded="true" signature="3925:4009" ph="select id,bo... book" />
-                <marker date="1492005572659" expanded="true" signature="3925:4023" ph="select from newBook" />
-                <marker date="1492005572659" expanded="true" signature="4107:4228" ph="INSERT INTO shelfbook... " />
-                <marker date="1492005572659" expanded="true" signature="4318:4398" ph="SELECT COUNT... shelfbook" />
+                <element signature="e#2786#2787#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AccountMapper.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/com/lzjuhuenng/enjoybooks/mapping/AccountMapper.xml">
+      <file leaf-file-name="ShelfMapper.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/com/lzjuhuenng/enjoybooks/mapping/ShelfMapper.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-132">
-              <caret line="45" column="17" lean-forward="true" selection-start-line="45" selection-start-column="17" selection-end-line="45" selection-end-column="17" />
+            <state relative-caret-position="125">
+              <caret line="53" column="17" lean-forward="false" selection-start-line="53" selection-start-column="17" selection-end-line="53" selection-end-column="17" />
               <folding>
-                <marker date="1491139359248" expanded="true" signature="774:888" ph="select from account" />
-                <marker date="1491139359248" expanded="true" signature="1012:1136" ph="select from account" />
-                <marker date="1491139359248" expanded="true" signature="1230:1291" ph="delete from " />
-                <marker date="1491139359248" expanded="true" signature="1402:1564" ph="insert into account... " />
-                <marker date="1491139359248" expanded="true" signature="2532:2954" ph="update accou... " />
-                <marker date="1491139359248" expanded="true" signature="3070:3266" ph="update accou... " />
+                <marker date="1492101607450" expanded="true" signature="1761:1960" ph="SELECT a.id shelfbook" />
+                <marker date="1492101607450" expanded="true" signature="2039:2108" ph="SELECT * FRO... bookmark" />
+                <marker date="1492101607450" expanded="true" signature="2228:2330" ph="select from book" />
+                <marker date="1492101607450" expanded="true" signature="2462:2801" ph="update shelf... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IPUtil.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/lzjuhuenng/enjoybooks/util/base/IPUtil.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-358">
+              <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SearchUtil.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/lzjuhuenng/enjoybooks/util/base/SearchUtil.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-161">
+              <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UUIDUtil.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/lzjuhuenng/enjoybooks/util/base/UUIDUtil.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-82">
+              <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DateUtil.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/lzjuhuenng/enjoybooks/util/base/DateUtil.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="138">
+              <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ShelfDao.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/lzjuhuenng/enjoybooks/dao/ShelfDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="217">
+              <caret line="11" column="36" lean-forward="false" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="36" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -145,27 +137,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/lzjuhuenng/enjoybooks/service/BookService.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="217">
-              <caret line="32" column="48" lean-forward="false" selection-start-line="32" selection-start-column="48" selection-end-line="32" selection-end-column="48" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AccountService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/lzjuhuenng/enjoybooks/service/AccountService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-115">
-              <caret line="10" column="49" lean-forward="false" selection-start-line="10" selection-start-column="49" selection-end-line="10" selection-end-column="49" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BookDao.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/lzjuhuenng/enjoybooks/dao/BookDao.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="219">
-              <caret line="23" column="24" lean-forward="false" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="24" />
+              <caret line="34" column="23" lean-forward="false" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -174,19 +146,13 @@
       <file leaf-file-name="BookServiceImpl.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/lzjuhuenng/enjoybooks/service/impl/BookServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="148">
-              <caret line="62" column="52" lean-forward="false" selection-start-line="62" selection-start-column="52" selection-end-line="62" selection-end-column="52" />
+            <state relative-caret-position="450">
+              <caret line="66" column="50" lean-forward="false" selection-start-line="66" selection-start-column="50" selection-end-line="66" selection-end-column="50" />
               <folding>
-                <element signature="e#774#775#0" expanded="true" />
-                <element signature="e#838#839#0" expanded="true" />
-                <element signature="e#1565#1566#0" expanded="true" />
-                <element signature="e#1618#1619#0" expanded="true" />
-                <element signature="e#1680#1681#0" expanded="true" />
-                <element signature="e#1748#1749#0" expanded="true" />
-                <element signature="e#1811#1812#0" expanded="true" />
-                <element signature="e#1878#1879#0" expanded="true" />
                 <element signature="e#1937#1938#0" expanded="true" />
                 <element signature="e#1997#1998#0" expanded="true" />
+                <element signature="e#2042#2043#0" expanded="true" />
+                <element signature="e#2100#2101#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -198,8 +164,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="spring-beans.schema" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -240,7 +206,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/lzjuhuenng/enjoybooks/controller/RequestMethodAction.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/lzjuhuenng/enjoybooks/controller/ModelAttrAction.java" />
         <option value="E:/EclipseWorkspace/Data/repo/org/springframework/spring-web/4.0.2.RELEASE/spring-web-4.0.2.RELEASE.jar!/org/springframework/web/bind/annotation/SessionAttributes.class" />
         <option value="$PROJECT_DIR$/src/main/java/com/lzjuhuenng/enjoybooks/controller/SessionAttrAction.java" />
@@ -286,6 +251,7 @@
         <option value="$PROJECT_DIR$/src/main/resources/com/lzjuhuenng/enjoybooks/mapping/BookMapper.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/lzjuhuenng/enjoybooks/pojo/Book.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/lzjuhuenng/enjoybooks/pojo/Bookmark.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lzjuhuenng/enjoybooks/util/base/DateUtil.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/lzjuhuenng/enjoybooks/dao/ShelfDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/lzjuhuenng/enjoybooks/service/BookService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/lzjuhuenng/enjoybooks/service/impl/BookServiceImpl.java" />
@@ -342,6 +308,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -443,6 +411,44 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="enjoybooks" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="util" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="enjoybooks" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="enjoybooks" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="enjoybooks" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="util" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="base" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -565,6 +571,32 @@
               <option name="myItemId" value="enjoybooks" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="enjoybooks" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="enjoybooks" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="enjoybooks" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="dao" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
@@ -603,8 +635,6 @@
         </subPane>
       </pane>
       <pane id="Scratches" />
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1163,7 +1193,8 @@
       <workItem from="1491699262312" duration="17164000" />
       <workItem from="1491908083140" duration="6246000" />
       <workItem from="1491994176091" duration="266000" />
-      <workItem from="1491994554125" duration="13040000" />
+      <workItem from="1491994554125" duration="13727000" />
+      <workItem from="1492092985570" duration="7422000" />
     </task>
     <task id="LOCAL-00001" summary="修改了README">
       <created>1491701728444</created>
@@ -1179,7 +1210,14 @@
       <option name="project" value="LOCAL" />
       <updated>1491919581588</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="完成添加书架功能">
+      <created>1492010069202</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1492010069202</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1188,7 +1226,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="89136000" />
+    <option name="totallyTimeSpent" value="97245000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1223,11 +1261,11 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329718" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329718" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.5520607" sideWeight="0.8715352" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329718" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329718" sideWeight="0.4978678" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1663113" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16791044" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
@@ -1307,7 +1345,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="修改了README" />
     <MESSAGE value="解决了session跨域丢失问题，实现了根据typeId查询书籍" />
-    <option name="LAST_COMMIT_MESSAGE" value="解决了session跨域丢失问题，实现了根据typeId查询书籍" />
+    <MESSAGE value="完成添加书架功能" />
+    <option name="LAST_COMMIT_MESSAGE" value="完成添加书架功能" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1320,15 +1359,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lzjuhuenng/enjoybooks/pojo/UserInfo.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lzjuhuenng/enjoybooks/service/UserInfoService.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/记录 .txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/0.chunk.js" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/lzjuhuenng/enjoybooks/service/impl/UserInfoServiceImpl.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/lzjuhuenng/enjoybooks/controller/UserInfoAction.java" />
@@ -1446,9 +1476,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="253">
           <caret line="11" column="36" lean-forward="false" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1470,7 +1497,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="23">
           <caret line="1" column="26" lean-forward="false" selection-start-line="1" selection-start-column="26" selection-end-line="1" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1514,9 +1540,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="460">
           <caret line="26" column="30" lean-forward="false" selection-start-line="26" selection-start-column="15" selection-end-line="26" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1530,19 +1553,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lzjuhuenng/enjoybooks/util/base/SearchUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/target/enjoybooks/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1550,94 +1564,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1725">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1492009826053" expanded="true" signature="96056:96075" ph="..." />
-            <marker date="1492009826053" expanded="true" signature="96056:96093" ph="..." />
-            <marker date="1492009826053" expanded="true" signature="96056:96106" ph="..." />
-            <marker date="1492009826053" expanded="true" signature="96294:96616" ph="..." />
-            <marker date="1492009826053" expanded="true" signature="96356:96603" ph="..." />
-            <marker date="1492009826053" expanded="true" signature="96402:96585" ph="..." />
-            <marker date="1492009826053" expanded="true" signature="96730:97050" ph="..." />
-            <marker date="1492009826053" expanded="true" signature="96792:97037" ph="..." />
-            <marker date="1492009826053" expanded="true" signature="96838:97019" ph="..." />
-            <marker date="1492009826053" expanded="true" signature="97275:97598" ph="..." />
-            <marker date="1492009826053" expanded="true" signature="97337:97585" ph="..." />
-            <marker date="1492009826053" expanded="true" signature="97383:97567" ph="..." />
-            <marker date="1492009826053" expanded="true" signature="97796:98119" ph="..." />
-            <marker date="1492009826053" expanded="true" signature="97858:98106" ph="..." />
-            <marker date="1492009826053" expanded="true" signature="97904:98088" ph="..." />
-            <marker date="1492009826053" expanded="true" signature="98232:98577" ph="..." />
-            <marker date="1492009826053" expanded="true" signature="98294:98564" ph="..." />
-            <marker date="1492009826053" expanded="true" signature="98340:98546" ph="..." />
-            <marker date="1492009826053" expanded="true" signature="98688:99113" ph="..." />
-            <marker date="1492009826053" expanded="true" signature="98750:99100" ph="..." />
-            <marker date="1492009826053" expanded="true" signature="98797:99082" ph="..." />
-            <marker date="1492009826053" expanded="true" signature="98984:99065" ph="..." />
-            <marker date="1492009826053" expanded="true" signature="99228:99652" ph="..." />
-            <marker date="1492009826053" expanded="true" signature="99290:99639" ph="..." />
-            <marker date="1492009826053" expanded="true" signature="99336:99621" ph="..." />
-            <marker date="1492009826053" expanded="true" signature="99523:99604" ph="..." />
-            <marker date="1492009826053" expanded="true" signature="99766:100262" ph="..." />
-            <marker date="1492009826053" expanded="true" signature="99828:100249" ph="..." />
-            <marker date="1492009826053" expanded="true" signature="99874:100231" ph="..." />
-            <marker date="1492009826053" expanded="true" signature="100061:100214" ph="..." />
-            <marker date="1492009826053" expanded="true" signature="100359:100704" ph="..." />
-            <marker date="1492009826053" expanded="true" signature="100421:100691" ph="..." />
-            <marker date="1492009826053" expanded="true" signature="100467:100673" ph="..." />
-            <marker date="1492009826053" expanded="true" signature="100813:101234" ph="..." />
-            <marker date="1492009826053" expanded="true" signature="100875:101221" ph="..." />
-            <marker date="1492009826053" expanded="true" signature="100921:101203" ph="..." />
-            <marker date="1492009826053" expanded="true" signature="101105:101186" ph="..." />
-            <marker date="1492009826053" expanded="true" signature="101346:101820" ph="..." />
-            <marker date="1492009826053" expanded="true" signature="101408:101807" ph="..." />
-            <marker date="1492009826053" expanded="true" signature="101454:101789" ph="..." />
-            <marker date="1492009826053" expanded="true" signature="101641:101772" ph="..." />
-            <marker date="1492009826053" expanded="true" signature="101928:103581" ph="..." />
-            <marker date="1492009826053" expanded="true" signature="101990:103568" ph="..." />
-            <marker date="1492009826053" expanded="true" signature="102037:103550" ph="..." />
-            <marker date="1492009826053" expanded="true" signature="102224:103533" ph="..." />
-            <marker date="1492009826053" expanded="true" signature="103687:104025" ph="..." />
-            <marker date="1492009826053" expanded="true" signature="103749:104012" ph="..." />
-            <marker date="1492009826053" expanded="true" signature="103794:103994" ph="..." />
-            <marker date="1492009826053" expanded="true" signature="104099:104436" ph="..." />
-            <marker date="1492009826053" expanded="true" signature="104161:104423" ph="..." />
-            <marker date="1492009826053" expanded="true" signature="104205:104405" ph="..." />
-            <marker date="1492009826053" expanded="true" signature="118133:118181" ph="..." />
-            <marker date="1492009826053" expanded="true" signature="118133:118168" ph="..." />
-            <marker date="1492009826053" expanded="true" signature="118133:118150" ph="..." />
-            <marker date="1492009826053" expanded="true" signature="118231:120535" ph="..." />
-            <marker date="1492009826053" expanded="true" signature="118244:120520" ph="..." />
-            <marker date="1492009826053" expanded="true" signature="118298:118693" ph="..." />
-            <marker date="1492009826053" expanded="true" signature="118317:118678" ph="..." />
-            <marker date="1492009826053" expanded="true" signature="118441:118658" ph="..." />
-            <marker date="1492009826053" expanded="true" signature="118481:118624" ph="..." />
-            <marker date="1492009826053" expanded="true" signature="118502:118602" ph="..." />
-            <marker date="1492009826053" expanded="true" signature="118743:119049" ph="..." />
-            <marker date="1492009826053" expanded="true" signature="118762:119034" ph="..." />
-            <marker date="1492009826053" expanded="true" signature="118836:119014" ph="..." />
-            <marker date="1492009826053" expanded="true" signature="118876:118980" ph="..." />
-            <marker date="1492009826053" expanded="true" signature="118897:118958" ph="..." />
-            <marker date="1492009826053" expanded="true" signature="119100:119365" ph="..." />
-            <marker date="1492009826053" expanded="true" signature="119119:119350" ph="..." />
-            <marker date="1492009826053" expanded="true" signature="119152:119330" ph="..." />
-            <marker date="1492009826053" expanded="true" signature="119192:119296" ph="..." />
-            <marker date="1492009826053" expanded="true" signature="119213:119274" ph="..." />
-            <marker date="1492009826053" expanded="true" signature="119408:119714" ph="..." />
-            <marker date="1492009826053" expanded="true" signature="119427:119699" ph="..." />
-            <marker date="1492009826053" expanded="true" signature="119501:119679" ph="..." />
-            <marker date="1492009826053" expanded="true" signature="119541:119645" ph="..." />
-            <marker date="1492009826053" expanded="true" signature="119562:119623" ph="..." />
-            <marker date="1492009826053" expanded="true" signature="119765:120117" ph="..." />
-            <marker date="1492009826053" expanded="true" signature="119784:120102" ph="..." />
-            <marker date="1492009826053" expanded="true" signature="119865:120082" ph="..." />
-            <marker date="1492009826053" expanded="true" signature="119905:120048" ph="..." />
-            <marker date="1492009826053" expanded="true" signature="119926:120026" ph="..." />
-            <marker date="1492009826053" expanded="true" signature="120169:120506" ph="..." />
-            <marker date="1492009826053" expanded="true" signature="120188:120491" ph="..." />
-            <marker date="1492009826053" expanded="true" signature="120293:120471" ph="..." />
-            <marker date="1492009826053" expanded="true" signature="120333:120437" ph="..." />
-            <marker date="1492009826053" expanded="true" signature="120354:120415" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1653,7 +1579,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="197">
           <caret line="26" column="5" lean-forward="true" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1661,10 +1586,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="276">
           <caret line="19" column="43" lean-forward="false" selection-start-line="19" selection-start-column="43" selection-end-line="19" selection-end-column="43" />
-          <folding>
-            <element signature="e#548#549#0" expanded="true" />
-            <element signature="e#599#600#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1672,7 +1593,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
           <caret line="39" column="24" lean-forward="true" selection-start-line="39" selection-start-column="24" selection-end-line="39" selection-end-column="31" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1680,13 +1600,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="184">
           <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/lzjuhuenng/enjoybooks/service/AccountService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-115">
+        <state relative-caret-position="207">
           <caret line="10" column="49" lean-forward="false" selection-start-line="10" selection-start-column="49" selection-end-line="10" selection-end-column="49" />
           <folding />
         </state>
@@ -1694,102 +1613,38 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/lzjuhuenng/enjoybooks/dao/BookDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
+        <state relative-caret-position="437">
           <caret line="23" column="24" lean-forward="false" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/com/lzjuhuenng/enjoybooks/mapping/AccountMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-132">
-          <caret line="45" column="17" lean-forward="true" selection-start-line="45" selection-start-column="17" selection-end-line="45" selection-end-column="17" />
           <folding>
-            <marker date="1491139359248" expanded="true" signature="774:888" ph="select from account" />
-            <marker date="1491139359248" expanded="true" signature="1012:1136" ph="select from account" />
-            <marker date="1491139359248" expanded="true" signature="1230:1291" ph="delete from " />
-            <marker date="1491139359248" expanded="true" signature="1402:1564" ph="insert into account... " />
-            <marker date="1491139359248" expanded="true" signature="2532:2954" ph="update accou... " />
-            <marker date="1491139359248" expanded="true" signature="3070:3266" ph="update accou... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lzjuhuenng/enjoybooks/pojo/Book.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="142" column="29" lean-forward="false" selection-start-line="142" selection-start-column="29" selection-end-line="142" selection-end-column="29" />
-          <folding>
-            <element signature="e#850#851#0" expanded="true" />
-            <element signature="e#881#882#0" expanded="true" />
-            <element signature="e#2786#2787#0" expanded="true" />
-            <element signature="e#2829#2830#0" expanded="true" />
-            <element signature="e#2867#2868#0" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/lzjuhuenng/enjoybooks/pojo/Bookmark.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="79">
-          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+        <state relative-caret-position="391">
+          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
           <folding>
-            <element signature="e#747#748#0" expanded="true" />
-            <element signature="e#781#782#0" expanded="true" />
-            <element signature="e#832#833#0" expanded="true" />
-            <element signature="e#878#879#0" expanded="true" />
+            <element signature="e#294#295#0" expanded="false" />
+            <element signature="e#319#320#0" expanded="false" />
+            <element signature="e#352#353#0" expanded="false" />
+            <element signature="e#380#381#0" expanded="false" />
+            <element signature="e#420#421#0" expanded="false" />
+            <element signature="e#456#457#0" expanded="false" />
+            <element signature="e#514#515#0" expanded="false" />
+            <element signature="e#564#565#0" expanded="false" />
+            <element signature="e#598#599#0" expanded="false" />
+            <element signature="e#628#629#0" expanded="false" />
+            <element signature="e#674#675#0" expanded="false" />
+            <element signature="e#712#713#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lzjuhuenng/enjoybooks/dao/ShelfDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="19" lean-forward="false" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lzjuhuenng/enjoybooks/service/BookService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="32" column="48" lean-forward="false" selection-start-line="32" selection-start-column="48" selection-end-line="32" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lzjuhuenng/enjoybooks/service/impl/BookServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="62" column="52" lean-forward="false" selection-start-line="62" selection-start-column="52" selection-end-line="62" selection-end-column="52" />
-          <folding>
-            <element signature="e#774#775#0" expanded="true" />
-            <element signature="e#838#839#0" expanded="true" />
-            <element signature="e#1565#1566#0" expanded="true" />
-            <element signature="e#1618#1619#0" expanded="true" />
-            <element signature="e#1680#1681#0" expanded="true" />
-            <element signature="e#1748#1749#0" expanded="true" />
-            <element signature="e#1811#1812#0" expanded="true" />
-            <element signature="e#1878#1879#0" expanded="true" />
-            <element signature="e#1937#1938#0" expanded="true" />
-            <element signature="e#1997#1998#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lzjuhuenng/enjoybooks/controller/BookController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="381">
-          <caret line="118" column="39" lean-forward="false" selection-start-line="118" selection-start-column="27" selection-end-line="118" selection-end-column="39" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/com/lzjuhuenng/enjoybooks/mapping/BookMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
+        <state relative-caret-position="1380">
           <caret line="60" column="0" lean-forward="false" selection-start-line="60" selection-start-column="0" selection-end-line="66" selection-end-column="13" />
           <folding>
             <marker date="1492005572659" expanded="true" signature="2365:2441" ph="select class... class_t" />
@@ -1810,14 +1665,113 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/com/lzjuhuenng/enjoybooks/mapping/ShelfMapper.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/com/lzjuhuenng/enjoybooks/mapping/AccountMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="59" column="0" lean-forward="false" selection-start-line="59" selection-start-column="0" selection-end-line="73" selection-end-column="13" />
+          <folding>
+            <marker date="1491139359248" expanded="true" signature="774:888" ph="select from account" />
+            <marker date="1491139359248" expanded="true" signature="1012:1136" ph="select from account" />
+            <marker date="1491139359248" expanded="true" signature="1230:1291" ph="delete from " />
+            <marker date="1491139359248" expanded="true" signature="1402:1564" ph="insert into account... " />
+            <marker date="1491139359248" expanded="true" signature="2532:2954" ph="update accou... " />
+            <marker date="1491139359248" expanded="true" signature="3070:3266" ph="update accou... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lzjuhuenng/enjoybooks/util/base/IPUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-358">
+          <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lzjuhuenng/enjoybooks/util/base/SearchUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-161">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lzjuhuenng/enjoybooks/util/base/UUIDUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-82">
+          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lzjuhuenng/enjoybooks/util/base/DateUtil.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
-          <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="44" selection-end-column="17" />
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lzjuhuenng/enjoybooks/dao/ShelfDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="11" column="36" lean-forward="false" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="36" />
           <folding>
-            <marker date="1492009825961" expanded="true" signature="1761:1960" ph="SELECT a.id shelfbook" />
-            <marker date="1492009825961" expanded="true" signature="2039:2108" ph="SELECT * FRO... bookmark" />
-            <marker date="1492009825961" expanded="true" signature="2228:2330" ph="select from book" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lzjuhuenng/enjoybooks/service/BookService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="34" column="23" lean-forward="false" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lzjuhuenng/enjoybooks/service/impl/BookServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="66" column="50" lean-forward="false" selection-start-line="66" selection-start-column="50" selection-end-line="66" selection-end-column="50" />
+          <folding>
+            <element signature="e#1937#1938#0" expanded="true" />
+            <element signature="e#1997#1998#0" expanded="true" />
+            <element signature="e#2042#2043#0" expanded="true" />
+            <element signature="e#2100#2101#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lzjuhuenng/enjoybooks/pojo/Book.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="509">
+          <caret line="142" column="29" lean-forward="false" selection-start-line="142" selection-start-column="29" selection-end-line="142" selection-end-column="29" />
+          <folding>
+            <element signature="e#2786#2787#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lzjuhuenng/enjoybooks/controller/BookController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="130" column="0" lean-forward="false" selection-start-line="130" selection-start-column="0" selection-end-line="130" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/com/lzjuhuenng/enjoybooks/mapping/ShelfMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="53" column="17" lean-forward="false" selection-start-line="53" selection-start-column="17" selection-end-line="53" selection-end-column="17" />
+          <folding>
+            <marker date="1492101607450" expanded="true" signature="1761:1960" ph="SELECT a.id shelfbook" />
+            <marker date="1492101607450" expanded="true" signature="2039:2108" ph="SELECT * FRO... bookmark" />
+            <marker date="1492101607450" expanded="true" signature="2228:2330" ph="select from book" />
+            <marker date="1492101607450" expanded="true" signature="2462:2801" ph="update shelf... " />
           </folding>
         </state>
       </provider>

@@ -8,4 +8,6 @@ import org.apache.ibatis.annotations.Param;
  */
 public interface ShelfDao {
     Book selectBook (@Param("bookId") int bookId,@Param("accountId") int accoutnId);
+
+    void updateByPrimaryKeySelective(Book book);
 }

@@ -43,5 +43,16 @@
         <!--where 1=1-->
         <!--limit #{beginRow},#{pageSize}-->
     <!--</select>-->
-
+    <update id="updateByPrimaryKeySelective" parameterType="com.lzjuhuenng.enjoybooks.pojo.Book" >
+        update shelfbook
+        <set >
+            <if test="lastRead != null" >
+                lastRead = #{lastRead,jdbcType=VARCHAR},
+            </if>
+            <if test="lastReadTime != null" >
+                lastReadTime = #{lastReadTime,jdbcType=VARCHAR},
+            </if>
+        </set>
+        where id = #{shelfId,jdbcType=INTEGER}
+    </update>
 </mapper>

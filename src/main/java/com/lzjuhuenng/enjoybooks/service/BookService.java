@@ -31,4 +31,6 @@ public interface BookService {
     boolean isBookInShelf(int bookId,int accountId);
 
     Book getShelfBook(int bookId,int accountId);
+
+    void recordLastRead(Book book);
 }

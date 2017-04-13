@@ -62,4 +62,8 @@ public class BookServiceImpl implements BookService {
     public Book getShelfBook(int bookId, int accountId) {
         return shelfDao.selectBook(bookId,accountId);
     }
+
+    public void recordLastRead(Book book) {
+        shelfDao.updateByPrimaryKeySelective(book);
+    }
 }

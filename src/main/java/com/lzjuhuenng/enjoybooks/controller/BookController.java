@@ -13,6 +13,8 @@ import org.springframework.web.bind.annotation.*;
 
 
 import javax.servlet.http.HttpSession;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -117,6 +119,20 @@ public class BookController extends BaseController {
         }
 
         return bookService.getShelfBook(bookId,acc.getId());
+    }
+
+    @CrossOrigin(origins = "*", methods = RequestMethod.POST,maxAge = 3600)
+    @RequestMapping(value = "/recordLastRead", method = RequestMethod.POST)
+    @ResponseBody
+    public boolean recordLastRead(@RequestBody Book book,HttpSession session) throws Exception{
+
+
+        book.setLastReadTime(new SimpleDateFormat("yy-MM-dd HH:mm:ss").format(new Date()));
+
+        bookService.recordLastRead(book);
+
+
+        return true;
     }
 
 
