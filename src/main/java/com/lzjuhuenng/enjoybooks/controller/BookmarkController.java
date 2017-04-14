@@ -22,8 +22,16 @@ public class BookmarkController {
     @CrossOrigin(origins = "*", methods = RequestMethod.POST,maxAge = 3600)
     @RequestMapping(value = "/addBookmark", method = RequestMethod.POST)
     @ResponseBody
-    public int getBookDetails(@RequestBody  Bookmark bookmark, HttpSession session) throws Exception{
+    public int addBookMark(@RequestBody  Bookmark bookmark, HttpSession session) throws Exception{
 
         return bookmarkService.insertBookmark(bookmark);
+    }
+
+    @CrossOrigin(origins = "*", methods = RequestMethod.GET,maxAge = 3600)
+    @RequestMapping(value = "/delBookmark/{id}", method = RequestMethod.GET)
+    @ResponseBody
+    public int delBookmark(@PathVariable  int id, HttpSession session) throws Exception{
+
+       return  bookmarkService.deleteBookmarkByID(id);
     }
 }

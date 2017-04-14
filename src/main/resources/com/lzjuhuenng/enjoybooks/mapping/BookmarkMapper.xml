@@ -40,11 +40,20 @@
         <!--where id = #{shelfId,jdbcType=INTEGER}-->
     <!--</update>-->
 
-    <insert id="insertBookmark" useGeneratedKeys="true" parameterType="com.lzjuhuenng.enjoybooks.pojo.Bookmark">
+    <insert id="insertBookmark" parameterType="com.lzjuhuenng.enjoybooks.pojo.Bookmark">
         INSERT INTO bookmark (shelfId,title,epubcfi)
         VALUE (#{shelfId,jdbcType=INTEGER},#{title,jdbcType=VARCHAR},#{epubcfi,jdbcType=VARCHAR})
-
+        <selectKey keyProperty="id" resultType="INTEGER">
+            select LAST_INSERT_ID()
+        </selectKey>
     </insert>
+    <!--<insert id="insertBookmark" parameterType="com.lzjuhuenng.enjoybooks.pojo.Bookmark">-->
+        <!--INSERT INTO bookmark (shelfId,title,epubcfi)-->
+        <!--VALUE (#{shelfId,jdbcType=INTEGER},#{title,jdbcType=VARCHAR},#{epubcfi,jdbcType=VARCHAR})-->
+        <!--<selectKey keyProperty="id" resultType="INTEGER">-->
+            <!--select LAST_INSERT_ID()-->
+        <!--</selectKey>-->
+    <!--</insert>-->
     <delete id="deleteBookmarkByID" parameterType="java.lang.Integer" >
         delete from bookmark
         where id = #{id,jdbcType=INTEGER}

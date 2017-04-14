@@ -17,11 +17,13 @@ public class BookmarkServiceImpl implements  BookmarkService {
 
     public int insertBookmark(Bookmark bookmark) {
 
-        return bookmarkDao.insertBookmark(bookmark);
+        bookmarkDao.insertBookmark(bookmark);
+
+        return bookmark.getId();
     }
 
-    public void deleteBookmarkByID(int id) {
+    public int deleteBookmarkByID(int id) {
 
-        bookmarkDao.deleteBookmarkByID(id);
+       return bookmarkDao.deleteBookmarkByID(id);
     }
 }

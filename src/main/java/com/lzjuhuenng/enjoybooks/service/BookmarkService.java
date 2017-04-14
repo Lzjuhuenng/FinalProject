@@ -6,5 +6,5 @@ public interface BookmarkService {
 
     int insertBookmark(Bookmark bookmark);
 
-    void deleteBookmarkByID(int id);
+    int deleteBookmarkByID(int id);
 }
