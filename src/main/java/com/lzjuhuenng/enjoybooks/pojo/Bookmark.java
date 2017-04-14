@@ -1,16 +1,14 @@
 package com.lzjuhuenng.enjoybooks.pojo;
 
-/**
- * Created by Administrator on 2017/4/5.
- */
+
 public class Bookmark {
 
     //书签的id
     private int id;
     //
-    private int sheifBookId;
+    private int shelfId;
     //书签标题
-    private String bookmarkTitle;
+    private String title;
     //书签的跳转链接
     private String epubcfi;
 
@@ -22,12 +20,12 @@ public class Bookmark {
         this.id = id;
     }
 
-    public String getBookmarkTitle() {
-        return bookmarkTitle;
+    public String getTitle() {
+        return title;
     }
 
-    public void setBookmarkTitle(String bookmarkTitle) {
-        this.bookmarkTitle = bookmarkTitle;
+    public void setTitle(String title) {
+        this.title = title;
     }
 
     public String getEpubcfi() {
@@ -38,11 +36,11 @@ public class Bookmark {
         this.epubcfi = epubcfi;
     }
 
-    public int getSheifBookId() {
-        return sheifBookId;
+    public int getShelfId() {
+        return shelfId;
     }
 
-    public void setSheifBookId(int sheifBookId) {
-        this.sheifBookId = sheifBookId;
+    public void setShelfId(int sheifId) {
+        this.shelfId = sheifId;
     }
 }

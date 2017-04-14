@@ -58,20 +58,20 @@
         </trim>
     </insert>
     <update id="updateByPrimaryKeySelective" parameterType="com.lzjuhuenng.enjoybooks.pojo.Account" >
-        update account
-        <set >
-            <if test="account != null" >
-                account = #{account,jdbcType=VARCHAR},
-            </if>
-            <if test="password != null" >
-                password = #{password,jdbcType=VARCHAR},
-            </if>
-            <if test="role != null" >
-                role = #{role,jdbcType=INTEGER},
-            </if>
-        </set>
-        where id = #{id,jdbcType=INTEGER}
-    </update>
+    update account
+    <set >
+        <if test="account != null" >
+            account = #{account,jdbcType=VARCHAR},
+        </if>
+        <if test="password != null" >
+            password = #{password,jdbcType=VARCHAR},
+        </if>
+        <if test="role != null" >
+            role = #{role,jdbcType=INTEGER},
+        </if>
+    </set>
+    where id = #{id,jdbcType=INTEGER}
+</update>
     <update id="updateByPrimaryKey" parameterType="com.lzjuhuenng.enjoybooks.pojo.Account" >
         update account
         set account = #{account,jdbcType=VARCHAR},

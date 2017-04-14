@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.lzjuhuenng.enjoybooks.dao.BookmarkDao">
+    <resultMap id="bookmarkMap" type="com.lzjuhuenng.enjoybooks.pojo.Bookmark" >
+        <id column="id" property="id" jdbcType="INTEGER" />
+        <result column="shelfId" property="shelfId" jdbcType="INTEGER" />
+        <result column="title" property="title" jdbcType="VARCHAR"/>
+        <result column="epubcfi" property="epubcfi" jdbcType="VARCHAR" />
+    </resultMap>
+
+    <!--<select id="selectBook" resultMap="bookMap">-->
+        <!--SELECT a.id as shelfId,a.lastRead,a.accountId,b.bookPath-->
+        <!--FROM shelfbook a-->
+        <!--LEFT JOIN book b-->
+        <!--ON a.bookId = b.id-->
+        <!--WHERE a.bookId = #{bookId} and a.accountId = #{accountId};-->
+    <!--</select>-->
+    <!--<select id="getBookmarks" resultMap="bookmarkMap">-->
+        <!--SELECT *-->
+        <!--FROM bookmark-->
+        <!--WHERE sheifBookId = #{shelfId}-->
+    <!--</select>-->
+
+    <!--<select id="selectByPage" resultMap="bookMap" parameterType="java.lang.Integer">-->
+        <!--select -->
+        <!--from book-->
+        <!--where 1=1-->
+        <!--limit #{beginRow},#{pageSize}-->
+    <!--</select>-->
+    <!--<update id="updateByPrimaryKeySelective" parameterType="com.lzjuhuenng.enjoybooks.pojo.Book" >-->
+        <!--update shelfbook-->
+        <!--<set >-->
+            <!--<if test="lastRead != null" >-->
+                <!--lastRead = #{lastRead,jdbcType=VARCHAR},-->
+            <!--</if>-->
+            <!--<if test="lastReadTime != null" >-->
+                <!--lastReadTime = #{lastReadTime,jdbcType=VARCHAR},-->
+            <!--</if>-->
+        <!--</set>-->
+        <!--where id = #{shelfId,jdbcType=INTEGER}-->
+    <!--</update>-->
+
+    <insert id="insertBookmark" useGeneratedKeys="true" parameterType="com.lzjuhuenng.enjoybooks.pojo.Bookmark">
+        INSERT INTO bookmark (shelfId,title,epubcfi)
+        VALUE (#{shelfId,jdbcType=INTEGER},#{title,jdbcType=VARCHAR},#{epubcfi,jdbcType=VARCHAR})
+
+    </insert>
+    <delete id="deleteBookmarkByID" parameterType="java.lang.Integer" >
+        delete from bookmark
+        where id = #{id,jdbcType=INTEGER}
+    </delete>
+    <select id="selectBookmarkByShelfId" resultMap="bookmarkMap">
+        SELECT * FROM bookmark WHERE shelfId = #{shelfId,jdbcType=INTEGER}
+    </select>
+</mapper>

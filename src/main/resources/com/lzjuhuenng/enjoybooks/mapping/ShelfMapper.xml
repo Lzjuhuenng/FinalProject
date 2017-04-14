@@ -13,14 +13,14 @@
         <result column="accountId" property="accountId" jdbcType="INTEGER" />
         <result column="lastRead" property="lastRead" jdbcType="VARCHAR"/>
         <result column="lastReadTime" property="lastReadTime" jdbcType="VARCHAR"/>
-        <collection property="bookmarkList" column="bookId" javaType="ArrayList"
+        <collection property="bookmarkList" column="id" javaType="ArrayList"
                     ofType="com.lzjuhuenng.enjoybooks.pojo.Bookmark" select="getBookmarks"/>
     </resultMap>
 
     <resultMap id="bookmarkMap" type="com.lzjuhuenng.enjoybooks.pojo.Bookmark">
         <id property="id" column="id" jdbcType="INTEGER"/>
-        <result property="sheifBookId" column="sheifBookId" jdbcType="INTEGER"  />
-        <result property="bookmarkTitle" column="bookmarkTitle" jdbcType="VARCHAR"  />
+        <result property="shelfId" column="shelfId" jdbcType="INTEGER"  />
+        <result property="title" column="title" jdbcType="VARCHAR"  />
         <result property="epubcfi" column="epubcfi" jdbcType="VARCHAR" />
     </resultMap>
 
@@ -31,10 +31,11 @@
         ON a.bookId = b.id
         WHERE a.bookId = #{bookId} and a.accountId = #{accountId};
     </select>
+
     <select id="getBookmarks" resultMap="bookmarkMap">
         SELECT *
         FROM bookmark
-        WHERE sheifBookId = #{shelfId}
+        WHERE shelfId = #{id}
     </select>
 
     <!--<select id="selectByPage" resultMap="bookMap" parameterType="java.lang.Integer">-->

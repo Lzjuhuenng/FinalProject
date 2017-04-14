@@ -1,8 +1,10 @@
 package com.lzjuhuenng.enjoybooks.service.impl;
 
 import com.lzjuhuenng.enjoybooks.dao.BookDao;
+import com.lzjuhuenng.enjoybooks.dao.BookmarkDao;
 import com.lzjuhuenng.enjoybooks.dao.ShelfDao;
 import com.lzjuhuenng.enjoybooks.pojo.Book;
+import com.lzjuhuenng.enjoybooks.pojo.Bookmark;
 import com.lzjuhuenng.enjoybooks.service.BookService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -18,6 +20,8 @@ public class BookServiceImpl implements BookService {
     BookDao bookDao;
     @Autowired
     ShelfDao shelfDao;
+    @Autowired
+    BookmarkDao bookmarkDao;
 
     public List<Book> getBookList(){
         return bookDao.getAllBook();
@@ -60,7 +64,12 @@ public class BookServiceImpl implements BookService {
     }
 
     public Book getShelfBook(int bookId, int accountId) {
-        return shelfDao.selectBook(bookId,accountId);
+
+        Book book = shelfDao.selectBook(bookId,accountId);
+
+        book.setBookmarkList(bookmarkDao.selectBookmarkByShelfId(book.getShelfId()));
+
+        return book;
     }
 
     public void recordLastRead(Book book) {
