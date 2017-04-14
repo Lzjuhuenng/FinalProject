@@ -4,10 +4,6 @@
     <list default="true" id="a3f70aa9-463b-49dd-abf4-8bfe888e985b" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/lzjuhuenng/enjoybooks/service/impl/BookServiceImpl.class" afterPath="$PROJECT_DIR$/target/classes/com/lzjuhuenng/enjoybooks/service/impl/BookServiceImpl.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/lzjuhuenng/enjoybooks/controller/BookmarkController.java" afterPath="$PROJECT_DIR$/src/main/java/com/lzjuhuenng/enjoybooks/controller/BookmarkController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/lzjuhuenng/enjoybooks/service/BookmarkService.java" afterPath="$PROJECT_DIR$/src/main/java/com/lzjuhuenng/enjoybooks/service/BookmarkService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/lzjuhuenng/enjoybooks/service/impl/BookmarkServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/lzjuhuenng/enjoybooks/service/impl/BookmarkServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/com/lzjuhuenng/enjoybooks/mapping/BookmarkMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/com/lzjuhuenng/enjoybooks/mapping/BookmarkMapper.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -1199,7 +1195,7 @@
       <workItem from="1491994176091" duration="266000" />
       <workItem from="1491994554125" duration="13727000" />
       <workItem from="1492092985570" duration="7674000" />
-      <workItem from="1492172657734" duration="11242000" />
+      <workItem from="1492172657734" duration="11280000" />
     </task>
     <task id="LOCAL-00001" summary="修改了README">
       <created>1491701728444</created>
@@ -1236,7 +1232,14 @@
       <option name="project" value="LOCAL" />
       <updated>1492181712977</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="初步添加了删除书签的功能">
+      <created>1492187933724</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1492187933724</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1245,7 +1248,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="108739000" />
+    <option name="totallyTimeSpent" value="108777000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1367,7 +1370,8 @@
     <MESSAGE value="完成添加书架功能" />
     <MESSAGE value="完成记录上次阅读的功能" />
     <MESSAGE value="实现了添加书签的功能，并能在用户再一次打开图书时显示，图书已有的书签" />
-    <option name="LAST_COMMIT_MESSAGE" value="实现了添加书签的功能，并能在用户再一次打开图书时显示，图书已有的书签" />
+    <MESSAGE value="初步添加了删除书签的功能" />
+    <option name="LAST_COMMIT_MESSAGE" value="初步添加了删除书签的功能" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
