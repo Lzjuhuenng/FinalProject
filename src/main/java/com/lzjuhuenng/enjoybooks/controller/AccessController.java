@@ -39,7 +39,7 @@ public class AccessController extends BaseController {
         session.setAttribute(ConstSessionName.UserInfo , acc);
         return this.ajaxSuccessResponse();
     }
-
+    @CrossOrigin (origins = "*", methods = RequestMethod.GET,maxAge = 3600)
     @RequestMapping(value = "/logout/{userId}", method = RequestMethod.GET)
     @ResponseBody
     public Map<String,Object> logout(@PathVariable String userId,HttpSession session) throws Exception{
@@ -47,13 +47,43 @@ public class AccessController extends BaseController {
         return this.ajaxSuccessResponse();
     }
 
+    @CrossOrigin (origins = "*", methods = RequestMethod.POST,maxAge = 3600)
     @RequestMapping(value = "/register", method = RequestMethod.POST)
     @ResponseBody
-    public Map<String,Object> register(@RequestBody Account account) throws Exception{
-        if(this.accountService.createAccount(account)){
-            return this.ajaxSuccessResponse();
+    public boolean register(@RequestBody Account account) throws Exception{
+        try{
+            System.out.println(account.toString());
+            if(accountService.insert(account)>0){
+                return true;
+            }else{
+                return false;
+            }
+
+        }catch(Exception e){
+            return false;
         }
-        return this.ajaxFailureResponse();
     }
+
+    @CrossOrigin (origins = "*", methods = RequestMethod.GET,maxAge = 3600)
+    @RequestMapping(value = "/isAccountExist/{account}", method = RequestMethod.GET)
+    @ResponseBody
+    public boolean isAccountExist(@PathVariable String account) throws Exception{
+
+        return accountService.isAccountExist(account);
+    }
+
+
+    @CrossOrigin (origins = "*", methods = RequestMethod.GET,maxAge = 3600)
+    @RequestMapping(value = "/isEmailExist/{email}", method = RequestMethod.GET)
+    @ResponseBody
+    public boolean isEmailExist(@PathVariable String email) throws Exception{
+
+        return this.accountService.isEmailExist(email);
+    }
+
+
+
+
+
 
 }

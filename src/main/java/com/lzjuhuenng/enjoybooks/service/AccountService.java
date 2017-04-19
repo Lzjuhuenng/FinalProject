@@ -22,4 +22,7 @@ public interface AccountService {
 
     public int update(Account account);
 
+    boolean isEmailExist(String email);
+
+    boolean isAccountExist(String account);
 }

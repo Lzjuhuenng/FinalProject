@@ -45,7 +45,7 @@ public class AccountServiceImpl implements AccountService{
     }
 
     public int insert(Account account) {
-        return 0;
+        return accountDao.insertAccount(account);
     }
 
     public int update(Account account) {
@@ -54,5 +54,15 @@ public class AccountServiceImpl implements AccountService{
 
     public List<Account> findAll() {
         return null;
+    }
+
+
+    public boolean isEmailExist(String email) {
+
+        return accountDao.selectAccountByEmail(email) != null;
+    }
+
+    public boolean isAccountExist(String account) {
+        return accountDao.selectAccountByAccount(account)!= null;
     }
 }

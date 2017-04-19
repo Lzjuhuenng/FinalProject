@@ -15,6 +15,8 @@ public interface AccountDao {
 
     Account selectAccountByAccount(String account);
 
+    Account selectAccountByEmail(String email);
+
     int updateByPrimaryKeySelective(Account record);
 
     int updateByPrimaryKey(Account record);

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.lzjuhuenng.enjoybooks.dao.BookTypeDao">
+
+    <resultMap id="bookTypeMap" type="com.lzjuhuenng.enjoybooks.pojo.BookType">
+        <id property="id" column="id" jdbcType="INTEGER"/>
+        <result property="bookType" column="bookType" jdbcType="VARCHAR"  />
+        <result property="state" column="state" jdbcType="INTEGER"/>
+    </resultMap>
+
+    <sql id="Book_Column_List">
+      id,bookType,state
+    </sql>
+
+    <select id="getAllBookType" resultMap="bookTypeMap" parameterType="java.lang.Integer" >
+        select id,bookType, state
+        from booktype
+        where state > 0 ;
+    </select>
+
+</mapper>
